@@ -1,0 +1,24 @@
+create table chat(
+chatID INT PRIMARY KEY,
+cahtName varchar(20),
+chatContent varchar(100),
+chatTime date);
+
+CREATE SEQUENCE chat_sequence
+START with 1
+INCREMENT by 1;
+
+CREATE OR REPLACE TRIGGER chat_trigger
+BEFORE INSERT
+ON chat
+REFERENCING NEW AS NEW
+FOR EACH ROW
+BEGIN
+SELECT CHAT_SEQUENCE.NEXTVAL INTO :NEW.chatID FROM dual;
+END;
+
+create TABLE chat(
+chatName varchar(30),
+chatContent varchar(30),
+chatTime date
+);
