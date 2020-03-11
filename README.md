@@ -4,7 +4,8 @@
 1532023 장종호
 
 제목: CoPaYou<br>
-컨셉: 교육용 웹 사이트<br>
+컨셉: 교육용 웹 사이트
+<img src="https://user-images.githubusercontent.com/60742556/76421625-4ab20f80-63e7-11ea-98af-f7b755317fb4.PNG"><br>
 
 using: Java, jdbc 사용 oracle DB<br>
 using other things: 서블릿, java Mail API, CodePen<br>
