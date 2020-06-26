@@ -11,7 +11,7 @@
 using: Java, jdbc 사용 oracle DB<br>
 using other things: 서블릿, java Mail API, CodePen<br>
 
-회원가입기능에 MVC2 패턴 사용<br>
+회원가입기능, 채팅기능 제외 사용 기능 MVC2 패턴 사용<br>
 
 아쉬운점: 모든기능에 MVC2를 사용하지 못한 것 과, 데이터 보안을 위한 해쉬함수를 사용하지 못한 것.<br>
           에자일 기법으로 개발한다는 컨셉이었으나, 개발 시작 전 완벽한 개발 계획을 수렴하지 못함. => 개발 기간이 부족해짐.<br>
